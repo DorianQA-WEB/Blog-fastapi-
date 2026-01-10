@@ -2,7 +2,7 @@ from pydantic import BaseModel
 from pydantic import ConfigDict
 
 
-class User(BaseModel):
+class CategoryBase(BaseModel):
     name: str
 
 

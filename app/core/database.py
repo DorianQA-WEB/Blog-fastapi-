@@ -17,7 +17,7 @@ DATABASE_URL = "sqlite+aiosqlite:///./blog.db"
 
 # Асинхронный движок базы данных
 # Параметр `echo=True` включает логирование SQL-запросов (удобно для отладки)
-engine = create_async_engine((DATABASE_URL, echo=True))
+engine = create_async_engine(DATABASE_URL, echo=True)
 
 
 # Базовый класс для всех моделей
