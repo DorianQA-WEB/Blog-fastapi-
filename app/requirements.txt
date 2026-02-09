@@ -5,3 +5,4 @@ uvicorn==0.40.0
 greenlet==3.3.0
 sqlalchemy==2.0.45
 aiosqlite==0.22.1
+loguru==0.7.3
